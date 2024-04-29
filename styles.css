@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(0deg, rgba(171, 191, 99, 0.20) 0%, rgba(184, 198, 133, 0.15) 19.71%, rgba(193, 206, 144, 0.10) 44.85%, rgba(204, 221, 143, 0.05) 68.5%, rgba(211, 211, 211, 0.20) 100%), #FFF;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.conteudo-pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-planta-metade {
+    height: 100vh;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #5B9331;
+}
+
+.imagem-planta {
+    height: 70vh;
+}
